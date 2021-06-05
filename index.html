@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+	<style type="text/css">
+		A:link{text-decoration: none; color: black;}
+		A:visited{text-decoration: none; color: black;}
+		A:hover{text-decoration: none; color: red;}
+		*{
+			padding:0;
+			margin:10px;
+		}
+		body{
+			background-image: url("./13.jpg");
+			background-size: 100%;
+			background-position: center;
+		}
+		li{
+			list-style-type: none;
+		}
+		.clear{
+			clear: both;
+		}
+		header{
+			width:100%;
+			height: 110px;
+			margin-bottom: 10px;
+		}
+		#logo{
+			text-align: center;
+			margin: 20px;
+			font-size: 50px;
+			font-weight: bold;
+			animation-name: textColorAnimation;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			text-shadow: 5px 5px 8px gray;
+		}
+		@keyframes textColorAnimation{
+			0%{color: red;}
+			10%{color: green;}
+			30%{color: black;}
+			50%{color: blue;}
+			70%{color: orange;}
+			90%{color: white;}
+			100%{color: yellow;}
+		}
+		#top{
+			float: right;
+			margin: 0 40px 0 0;
+			font-family: 배찌체;
+			font-weight: bold;
+			font-style: italic;
+			font-size: 30px;
+		}
+		section{
+			float: left;
+			margin-top: 10px;
+			margin-left: 350px;
+			border: 1px solid #bbbbbb;
+		}
+		aside{
+			float: right;
+			border:1px solid #bbbbbb;
+			margin-top: 10px; 
+			margin-right: 350px;
+			width: 150px;
+			height: 525px;
+		}
+		aside li{
+			margin-bottom: 70px;
+		}
+		nav{
+			width: 995px;
+			height: 70px;
+			padding-top: 10px;
+			margin-top: 20px;
+			margin-left: 450px;
+			border: 1px solid #bbbbbb;
+
+
+		}
+		nav li{
+			display: inline;
+			margin: 50px 30px;
+		}
+		footer{
+			width: 1160px;
+			height: 100px;
+			margin-left: 350px;
+			border: 1px solid #bbbbbb;
+			margin-top: 20px;
+		}
+		#address{
+			float: left;
+			margin:30px 0 0 20px;
+		}
+		#customer{
+			float: right;
+			margin:30px 0 0 180px;
+			padding-right: 20px;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<div id="logo">
+		떡볶이, 당신의 취향을 찾아서
+	</div>
+	<div id="top">
+		<a href="./index.html">너는 먹을 때 제일 예뻐 </a>
+	</div>
+</header>
+<nav>
+	<ul>
+		<li> <a href="001.html" target="bb">엽기떡볶이</a> </li>
+		<li> 신전떡볶이 </li>
+		<li> 청년다방 </li>
+		<li> 배달떡볶이 </li>
+		<li> 500원 컵볶이 </li>
+		<li> 죠스떡볶이 </li>
+		<li> 아딸 </li>
+	</ul>
+</nav> 
+<div class="clear"> </div>
+<section>
+	<iframe src="body.html" name="bb" width="950" height="500" scrolling="no" 
+	frameborder="0"></iframe>
+</section>
+<aside>
+	<ul>
+		<li> 쌀떡 </li>
+		<li> 밀떡 </li>
+		<li> 국물 있음 </li>
+		<li> 국물 없음 </li>
+		<li> 매워 </li>
+		<li> 안매워 </li>
+	</ul>
+</aside>
+<div class="clear"> </div>
+<footer>
+	<div id="address">
+		세상의 모든 떡볶이는 옳다
+	</div>
+	<div id="customer">
+		배달의 민족 ㅣ 요기요 ㅣ 쿠팡 잇츠 ㅣ 배달통
+	</div>
+</footer>
+</header>
+</body>
+</html>
